@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Parameter Suite" parallel = "false">
+    <test name = "My parameters">
+        <parameter name = "level" value = "sin"></parameter>
+        <parameter name = "description" value = "senior"></parameter>
+        <classes>
+            <class name = "com.softserve.ita.TestWithParameters">
+            </class>
+        </classes>
+    </test>
+    <test name = "My param">
+        <parameter name = "level" value = "mid"></parameter>
+        <parameter name = "description" value = "middle"></parameter>
+        <classes>
+            <class name = "com.softserve.ita.TestWithParameters">
+            </class>
+        </classes>
+    </test>
+</suite>
